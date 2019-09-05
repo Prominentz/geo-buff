@@ -1,0 +1,174 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>NA Countries Review</title>
+		<link rel='stylesheet' type='text/css' href='css/stylesheet.css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="siteicons/css/elusive-icons.min.css">
+		<script src="ammap/ammap/ammap.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="ammap/ammap/ammap.css" type="text/css" media="all"/>
+		<script src="ammap/ammap/maps/js/worldHigh.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class='head'>
+			<div class='title'>
+				<a href='home.html'><h6>Geo-Buff</h6></a>
+			</div>
+			<div class='links'>
+				<ul id='ul_nav'>
+					<li><a href='countries.html'>Countries</a></li>
+					<li><a href='flags.html'>Flags</a></li>
+					<li><a href='capitals.html'>Capitals</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="mapdiv">
+			<script>
+				var map = AmCharts.makeChart( "mapdiv", {
+
+				type: "map",
+				theme: "light",
+				
+				dataProvider: {
+					map: "worldHigh",
+					zoomLevel: 2.6,
+					zoomLongitude: -100,
+					zoomLatitude: 46,
+					areas: [ {
+						title: "United States of America",
+						id: "US",
+						color: "#118C4E",
+						customData: "Washington D.C."
+					  }, {
+						title: "Canada",
+						id: "CA",
+						color: "#118C4E",
+						customData: "Ottawa"
+					  }, {
+						title: "Mexico",
+						id: "MX",
+						color: "#118C4E",
+						customData: "Mexico City"
+					  }, {
+						title: "Antigua and Barbuda",
+						id: "AG",
+						color: "#118C4E",
+						customData: "St. John's"
+					  }, {
+						title: "The Bahamas",
+						id: "BS",
+						color: "#118C4E",
+						customData: "Nassau"
+					  }, {
+						title: "Barbados",
+						id: "BB",
+						color: "#118C4E",
+						customData: "Bridgetown"
+					  }, {
+						title: "Belize",
+						id: "BZ",
+						color: "#118C4E",
+						customData: "Belmopan"
+					  }, {
+						title: "Costa Rica",
+						id: "CR",
+						color: "#118C4E",
+						customData: "San Jose"
+					  }, {
+						title: "Cuba",
+						id: "CU",
+						color: "#118C4E",
+						customData: "Havana"
+					  }, {
+						title: "Dominica",
+						id: "DM",
+						color: "#118C4E",
+						customData: "Roseau"
+					  }, {
+						title: "Dominican Republic",
+						id: "DO",
+						color: "#118C4E",
+						customData: "Santo Domingo"
+					  }, {
+						title: "El Salvador",
+						id: "SV",
+						color: "#118C4E",
+						customData: "San Salvador"
+					  }, {
+						title: "Grenada",
+						id: "GD",
+						color: "#118C4E",
+						customData: "St. George's"
+					  }, {
+						title: "Guatemala",
+						id: "GT",
+						color: "#118C4E",
+						customData: "Guatemala City"
+					  }, {
+						title: "Haiti",
+						id: "HT",
+						color: "#118C4E",
+						customData: "Port-au-Prince"
+					  }, {
+						title: "Honduras",
+						id: "HN",
+						color: "#118C4E",
+						customData: "Tegucigalpa"
+					  }, {
+						title: "Jamaica",
+						id: "JM",
+						color: "#118C4E",
+						customData: "Kingston"
+					  }, {
+						title: "Nicaragua",
+						id: "NI",
+						color: "#118C4E",
+						customData: "Managua"
+					  }, {
+						title: "Panama",
+						id: "PA",
+						color: "#118C4E",
+						customData: "Panama City"
+					  }, {
+						title: "Saint Kitts and Nevis",
+						id: "KN",
+						color: "#118C4E",
+						customData: "Basseterre"
+					  }, {
+						title: "Canada",
+						id: "CA",
+						color: "#118C4E",
+						customData: "Ottawa"
+					  }, {
+						title: "Saint Lucia",
+						id: "LC",
+						color: "#118C4E",
+						customData: "Castries"
+					  }, {
+						title: "Saint Vincent and the Grenadines",
+						id: "VC",
+						color: "#118C4E",
+						customData: "Kingstown"
+					  }, {
+						title: "Trinidad and Tobago",
+						id: "TT",
+						color: "#118C4E",
+						customData: "Port of Spain"
+					  },
+					]
+				  },
+
+				  areasSettings: {
+					rollOverOutlineColor: "#1c1c1c",
+					rollOverColor: "#139F59",
+					alpha: 0.8,
+					unlistedAreasAlpha: 0.5,
+					unlistedAreasColor: "#1c1c1c",
+					balloonText: "[[title]] - [[customData]]"
+				  }
+				} );
+			</script>
+		</div>
+	</body>
+</html>

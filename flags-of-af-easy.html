@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Geo-Buff: Flags of AF Easy</title>
+		<link rel='stylesheet' type='text/css' href='css/stylesheet.css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="icons/css/elusive-icons.min.css">
+		<link href="icons/flags/assets/docs.css" rel="stylesheet">
+		<link href="icons/flags/css/flag-icon.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script src='javascript/af-flags-easy.js'></script>
+	</head>
+	<body>
+		<div class='head'>
+			<div class='title'>
+				<a href='home.html'><h6>Geo-Buff</h6></a>
+			</div>
+			<div class='links'>
+				<ul id='ul_nav'>
+					<li><a href='countries.html'>Countries</a></li>
+					<li><a href='flags.html'>Flags</a></li>
+					<li><a href='capitals.html'>Capitals</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class='games'>
+			<div id='intro_div' class='game_div'>
+				<h1 class='game_name'>Flags of Africa</h1>
+				<h2 class='easy'>Easy Mode</h2>
+				<button class='start'>Begin</button><br><br>
+				<button class='review-2' onclick="location.href='af-flags-review.html';">I need to review first!</button>
+				<button class='change_mind' onclick="location.href='flags.html';">I changed my mind</button>
+			</div>
+			<div id='play_div' class='game_div'>
+				<div class='question_div'>
+					<h2 class='question'>Which country's flag is this?</h2>
+					<h2 id='progress'></h2>
+				</div>
+				<div class='image_div'>
+					<h1 class='flag-h1'></h1>
+				</div>
+				<div class='answer_div'>
+					<button id='a' class='quiz-opt' onClick='aClick()'></button>
+					<button id='b' class='quiz-opt' onClick='bClick()'></button><br>
+					<button id='c' class='quiz-opt' onClick='cClick()'></button>
+					<button id='d' class='quiz-opt' onClick='dClick()'></button>
+				</div>
+				<div class='progress_bar_div'>
+					<progress id='p-bar'></progress>
+				</div>
+			</div>
+			<div id='result_div' class='game_div'>
+				<h1 class='game_name'>Results</h1>
+				<div id='stats_div'>
+					<table id='stats_table'>
+						<tr>
+							<td>
+								<h3 class='stats'>Overall:</h3>
+							</td>
+							<td>
+								<progress id='overall-stats' class='statprog'></progress>
+							</td>
+							<td>
+								<h3 id='numCorrect' class='stats'></h3>
+							</td>
+						</tr>
+					</table>
+					<div id='btn_div'>
+						<button class='play_again' onClick='window.location.reload()'>Play Again</button>
+						<button class='review-3' onClick="location.href='af-flags-review.html';">I need some more review!</button>
+						<button class='change_mind' onClick="location.href='flags.html';">More quizzes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

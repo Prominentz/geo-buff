@@ -1,0 +1,309 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>AS Countries Review</title>
+		<link rel='stylesheet' type='text/css' href='css/stylesheet.css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="siteicons/css/elusive-icons.min.css">
+		<script src="ammap/ammap/ammap.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="ammap/ammap/ammap.css" type="text/css" media="all"/>
+		<script src="ammap/ammap/maps/js/worldHigh.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class='head'>
+			<div class='title'>
+				<a href='home.html'><h6>Geo-Buff</h6></a>
+			</div>
+			<div class='links'>
+				<ul id='ul_nav'>
+					<li><a href='countries.html'>Countries</a></li>
+					<li><a href='flags.html'>Flags</a></li>
+					<li><a href='capitals.html'>Capitals</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="mapdiv">
+			<script>
+				var map = AmCharts.makeChart( "mapdiv", {
+
+				type: "map",
+				theme: "light",
+				
+				dataProvider: {
+					map: "worldHigh",
+					zoomLevel: 2.3,
+					zoomLongitude: 120,
+					zoomLatitude: 38,
+					areas: [ {
+						title: "Afghanistan",
+						id: "AF",
+						color: "#118C4E",
+						customData: "Kabul"
+					  }, {
+						title: "Armenia",
+						id: "AM",
+						color: "#118C4E",
+						customData: "Yerevan"
+					  }, {
+						title: "Azerbaijan",
+						id: "AZ",
+						color: "#118C4E",
+						customData: "Baku"
+					  }, {
+						title: "Bahrain",
+						id: "BH",
+						color: "#118C4E",
+						customData: "Manama",
+						outlineColor: "#1c1c1c"
+					  }, {
+						title: "Bangladesh",
+						id: "BD",
+						color: "#118C4E",
+						customData: "Dhaka"
+					  }, {
+						title: "Bhutan",
+						id: "BT",
+						color: "#118C4E",
+						customData: "Thimphu"
+					  }, {
+						title: "Brunei",
+						id: "BN",
+						color: "#118C4E",
+						customData: "Bandar Seri Begawan",
+						outlineColor: "#1c1c1c"
+					  }, {
+						title: "Cambodia",
+						id: "KH",
+						color: "#118C4E",
+						customData: "Phnom Penh"
+					  }, {
+						title: "China",
+						id: "CN",
+						color: "#118C4E",
+						customData: "Beijing"
+					  }, {
+						title: "India",
+						id: "IN",
+						color: "#118C4E",
+						customData: "New Delhi"
+					  }, {
+						title: "Indonesia",
+						id: "ID",
+						color: "#118C4E",
+						customData: "Jakarta"
+					  }, {
+						title: "Iran",
+						id: "IR",
+						color: "#118C4E",
+						customData: "Tehran"
+					  }, {
+						title: "Iraq",
+						id: "IQ",
+						color: "#118C4E",
+						customData: "Baghdad"
+					  }, {
+						title: "Israel",
+						id: "IL",
+						color: "#118C4E",
+						customData: "Jerusalem"
+					  }, {
+						title: "Japan",
+						id: "JP",
+						color: "#118C4E",
+						customData: "Tokyo"
+					  }, {
+						title: "Jordan",
+						id: "JO",
+						color: "#118C4E",
+						customData: "Amman"
+					  }, {
+						title: "Kazakhstan",
+						id: "KZ",
+						color: "#118C4E",
+						customData: "Astana"
+					  }, {
+						title: "Kuwait",
+						id: "KW",
+						color: "#118C4E",
+						customData: "Kuwait City"
+					  }, {
+						title: "Kyrgyzstan",
+						id: "KG",
+						color: "#118C4E",
+						customData: "Bishkek"
+					  }, {
+						title: "Laos",
+						id: "LA",
+						color: "#118C4E",
+						customData: "Vientiane"
+					  }, {
+						title: "Lebanon",
+						id: "LB",
+						color: "#118C4E",
+						customData: "Beirut"
+					  }, {
+						title: "Malaysia",
+						id: "MY",
+						color: "#118C4E",
+						customData: "Kuala Lumpur"
+					  }, {
+						title: "Maldives",
+						id: "MV",
+						color: "#118C4E",
+						customData: "Male",
+						outlineColor: "#1c1c1c"
+					  }, {
+						title: "Mongolia",
+						id: "MN",
+						color: "#118C4E",
+						customData: "Ulan Bator"
+					  }, {
+						title: "Myanmar",
+						id: "MM",
+						color: "#118C4E",
+						customData: "Naypyidaw"
+					  }, {
+						title: "Nepal",
+						id: "NP",
+						color: "#118C4E",
+						customData: "Kathmandu"
+					  }, {
+						title: "North Korea",
+						id: "KP",
+						color: "#118C4E",
+						customData: "Pyongyang"
+					  }, {
+						title: "Oman",
+						id: "OM",
+						color: "#118C4E",
+						customData: "Muscat"
+					  }, {
+						title: "Pakistan",
+						id: "PK",
+						color: "#118C4E",
+						customData: "Islamabad"
+					  }, {
+						title: "Palestine",
+						id: "PS",
+						color: "#118C4E",
+						customData: "Ramallah"
+					  }, {
+						title: "The Philippines",
+						id: "PH",
+						color: "#118C4E",
+						customData: "Manila"
+					  }, {
+						title: "Qatar",
+						id: "QA",
+						color: "#118C4E",
+						customData: "Doha",
+						outlineColor: "#1c1c1c"
+					  }, {
+						title: "Russia",
+						id: "RU",
+						color: "#118C4E",
+						customData: "Moscow"
+					  }, {
+						title: "Saudi Arabia",
+						id: "SA",
+						color: "#118C4E",
+						customData: "Riyadh"
+					  }, {
+						title: "Singapore",
+						id: "SG",
+						color: "#118C4E",
+						customData: "Singapore",
+						outlineColor: "#1c1c1c"
+					  }, {
+						title: "South Korea",
+						id: "KR",
+						color: "#118C4E",
+						customData: "Seoul"
+					  }, {
+						title: "Sri Lanka",
+						id: "LK",
+						color: "#118C4E",
+						customData: "Colombo"
+					  }, {
+						title: "Syria",
+						id: "SY",
+						color: "#118C4E",
+						customData: "Damascus"
+					  }, {
+						title: "Taiwan",
+						id: "TW",
+						color: "#118C4E",
+						customData: "Taipei"
+					  }, {
+						title: "Tajikistan",
+						id: "TJ",
+						color: "#118C4E",
+						customData: "Dushanbe"
+					  }, 
+					  {
+						title: "Thailand",
+						id: "TH",
+						color: "#118C4E",
+						customData: "Bangkok"
+					  }, 
+					  {
+						title: "Turkey",
+						id: "TR",
+						color: "#118C4E",
+						customData: "Ankara"
+					  }, 
+					  {
+						title: "Turkmenistan",
+						id: "TM",
+						color: "#118C4E",
+						customData: "Ashgabat"
+					  }, 
+					  {
+						title: "United Arab Emirates",
+						id: "AE",
+						color: "#118C4E",
+						customData: "Abu Dhabi"
+					  }, 
+					  {
+						title: "Uzbekistan",
+						id: "UZ",
+						color: "#118C4E",
+						customData: "Tashkent"
+					  }, {
+						title: "Vietnam",
+						id: "VN",
+						color: "#118C4E",
+						customData: "Hanoi"
+					  }, {
+						title: "Yemen",
+						id: "YE",
+						color: "#118C4E",
+						customData: "Sana'a"
+					  }, {
+						title: "Georgia",
+						id: "GE",
+						color: "#118C4E",
+						customData: "Tbilisi"
+					  }, {
+						title: "Timor-Leste",
+						id: "TL",
+						color: "#118C4E",
+						customData: "Dili"
+					  },
+					]
+				  },
+
+				  areasSettings: {
+					rollOverOutlineColor: "#1c1c1c",
+					rollOverColor: "#139F59",
+					alpha: 0.8,
+					unlistedAreasAlpha: 0.5,
+					unlistedAreasColor: "#1c1c1c",
+					balloonText: "[[title]] - [[customData]]"
+				  }
+				} );
+			</script>
+		</div>
+	</body>
+</html>

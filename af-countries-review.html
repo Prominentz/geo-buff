@@ -1,0 +1,335 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>AF Countries Review</title>
+		<link rel='stylesheet' type='text/css' href='css/stylesheet.css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="siteicons/css/elusive-icons.min.css">
+		<script src="ammap/ammap/ammap.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="ammap/ammap/ammap.css" type="text/css" media="all"/>
+		<script src="ammap/ammap/maps/js/worldHigh.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class='head'>
+			<div class='title'>
+				<a href='home.html'><h6>Geo-Buff</h6></a>
+			</div>
+			<div class='links'>
+				<ul id='ul_nav'>
+					<li><a href='countries.html'>Countries</a></li>
+					<li><a href='flags.html'>Flags</a></li>
+					<li><a href='capitals.html'>Capitals</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="mapdiv">
+			<script>
+				var map = AmCharts.makeChart( "mapdiv", {
+
+				type: "map",
+				theme: "light",
+				
+				dataProvider: {
+					map: "worldHigh",
+					zoomLevel: 3,
+					zoomLongitude: 20,
+					zoomLatitude: 2,
+					areas: [ {
+						title: "Algeria",
+						id: "DZ",
+						color: "#118C4E",
+						customData: "Algiers"
+					  }, {
+						title: "Angola",
+						id: "AO",
+						color: "#118C4E",
+						customData: "Luanda"
+					  }, {
+						title: "Benin",
+						id: "BJ",
+						color: "#118C4E",
+						customData: "Porto-Novo"
+					  }, {
+						title: "Botswana",
+						id: "BW",
+						color: "#118C4E",
+						customData: "Gaborone"
+					  }, {
+						title: "Burkina Faso",
+						id: "BF",
+						color: "#118C4E",
+						customData: "Ouagadougou"
+					  }, {
+						title: "Burundi",
+						id: "BI",
+						color: "#118C4E",
+						customData: "Bujumbura"
+					  }, {
+						title: "Cape Verde",
+						id: "CV",
+						color: "#118C4E",
+						customData: "Praia",
+						outlineColor: "#1c1c1c"
+					  }, {
+						title: "Cameroon",
+						id: "CM",
+						color: "#118C4E",
+						customData: "Yaounde"
+					  }, {
+						title: "Central African Republic",
+						id: "CF",
+						color: "#118C4E",
+						customData: "Bangui"
+					  }, {
+						title: "Democratic Republic of the Congo",
+						id: "CD",
+						color: "#118C4E",
+						customData: "Kinshasa"
+					  }, {
+						title: "Chad",
+						id: "TD",
+						color: "#118C4E",
+						customData: "N'Djamena"
+					  }, {
+						title: "Comoros",
+						id: "KM",
+						color: "#118C4E",
+						customData: "Moroni",
+						outlineColor: "#1c1c1c"
+					  }, {
+						title: "Republic of the Congo",
+						id: "CG",
+						color: "#118C4E",
+						customData: "Brazzaville"
+					  }, {
+						title: "Ivory Coast",
+						id: "CI",
+						color: "#118C4E",
+						customData: "Yamoussoukro"
+					  }, {
+						title: "Djibouti",
+						id: "DJ",
+						color: "#118C4E",
+						customData: "Djibouti"
+					  }, {
+						title: "Egypt",
+						id: "EG",
+						color: "#118C4E",
+						customData: "Cairo"
+					  }, {
+						title: "Equatorial Guinea",
+						id: "GQ",
+						color: "#118C4E",
+						customData: "Malabo"
+					  }, {
+						title: "Eritrea",
+						id: "ER",
+						color: "#118C4E",
+						customData: "Asmara"
+					  }, {
+						title: "Ethiopia",
+						id: "ET",
+						color: "#118C4E",
+						customData: "Addis Ababa"
+					  }, {
+						title: "Gabon",
+						id: "GA",
+						color: "#118C4E",
+						customData: "Libreville"
+					  }, {
+						title: "Gambia",
+						id: "GM",
+						color: "#118C4E",
+						customData: "Banjul"
+					  }, {
+						title: "Ghana",
+						id: "GH",
+						color: "#118C4E",
+						customData: "Accra"
+					  }, {
+						title: "Guinea",
+						id: "GW",
+						color: "#118C4E",
+						customData: "Conakry"
+					  }, {
+						title: "Guinea-Bissau",
+						id: "GN",
+						color: "#118C4E",
+						customData: "Bissau"
+					  }, {
+						title: "Kenya",
+						id: "KE",
+						color: "#118C4E",
+						customData: "Nairobi"
+					  }, {
+						title: "Lesotho",
+						id: "LS",
+						color: "#118C4E",
+						customData: "Maseru"
+					  }, {
+						title: "Liberia",
+						id: "LR",
+						color: "#118C4E",
+						customData: "Monrovia"
+					  }, {
+						title: "Libya",
+						id: "LY",
+						color: "#118C4E",
+						customData: "Tripoli"
+					  }, {
+						title: "Madagascar",
+						id: "MG",
+						color: "#118C4E",
+						customData: "Antananarivo"
+					  }, {
+						title: "Malawi",
+						id: "MW",
+						color: "#118C4E",
+						customData: "Lilongwe"
+					  }, {
+						title: "Mali",
+						id: "ML",
+						color: "#118C4E",
+						customData: "Bamako"
+					  }, {
+						title: "Mauritania",
+						id: "MR",
+						color: "#118C4E",
+						customData: "Nouakchott"
+					  }, {
+						title: "Mauritius",
+						id: "MU",
+						color: "#118C4E",
+						customData: "Port Louis",
+						outlineColor: "#1c1c1c"
+					  }, {
+						title: "Morocco",
+						id: "MA",
+						color: "#118C4E",
+						customData: "Rabat"
+					  }, {
+						title: "Mozambique",
+						id: "MZ",
+						color: "#118C4E",
+						customData: "Maputo"
+					  }, {
+						title: "Namibia",
+						id: "NA",
+						color: "#118C4E",
+						customData: "Windhoek"
+					  }, {
+						title: "Niger",
+						id: "NE",
+						color: "#118C4E",
+						customData: "Niamey"
+					  }, {
+						title: "Nigeria",
+						id: "NG",
+						color: "#118C4E",
+						customData: "Abuja"
+					  }, {
+						title: "Rwanda",
+						id: "RW",
+						color: "#118C4E",
+						customData: "Kigali"
+					  }, {
+						title: "Sao Tome and Principe",
+						id: "ST",
+						color: "#118C4E",
+						customData: "Sao Tome",
+						outlineColor: "#1c1c1c"
+					  }, 
+					  {
+						title: "Senegal",
+						id: "SN",
+						color: "#118C4E",
+						customData: "Dakar"
+					  }, 
+					  {
+						title: "Seychelles",
+						id: "SC",
+						color: "#118C4E",
+						customData: "Victoria",
+						outlineColor: "#1c1c1c"
+					  }, 
+					  {
+						title: "Sierra Leone",
+						id: "SL",
+						color: "#118C4E",
+						customData: "Freetown"
+					  }, 
+					  {
+						title: "Somalia",
+						id: "SO",
+						color: "#118C4E",
+						customData: "Mogadishu"
+					  }, 
+					  {
+						title: "South Africa",
+						id: "ZA",
+						color: "#118C4E",
+						customData: "Cape Town"
+					  }, {
+						title: "South Sudan",
+						id: "SS",
+						color: "#118C4E",
+						customData: "Juba"
+					  }, {
+						title: "Sudan",
+						id: "SD",
+						color: "#118C4E",
+						customData: "Khartoum"
+					  }, {
+						title: "Swaziland",
+						id: "SZ",
+						color: "#118C4E",
+						customData: "Mbabane"
+					  }, {
+						title: "Tanzania",
+						id: "TZ",
+						color: "#118C4E",
+						customData: "Dodoma"
+					  }, {
+						title: "Togo",
+						id: "TG",
+						color: "#118C4E",
+						customData: "Lome"
+					  }, {
+						title: "Tunisia",
+						id: "TN",
+						color: "#118C4E",
+						customData: "Tunis"
+					  }, {
+						title: "Uganda",
+						id: "UG",
+						color: "#118C4E",
+						customData: "Kampala"
+					  }, {
+						title: "Zambia",
+						id: "ZM",
+						color: "#118C4E",
+						customData: "Lusaka"
+					  }, {
+						title: "Zimbabwe",
+						id: "ZW",
+						color: "#118C4E",
+						customData: "Harare"
+					  }, 
+
+					]
+				  },
+
+				  areasSettings: {
+					rollOverOutlineColor: "#1c1c1c",
+					rollOverColor: "#139F59",
+					alpha: 0.8,
+					unlistedAreasAlpha: 0.5,
+					unlistedAreasColor: "#1c1c1c",
+					balloonText: "[[title]] - [[customData]]"
+				  }
+				} );
+			</script>
+		</div>
+	</body>
+</html>

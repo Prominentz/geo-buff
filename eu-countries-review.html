@@ -1,0 +1,299 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>EU Countries Review</title>
+		<link rel='stylesheet' type='text/css' href='css/stylesheet.css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="siteicons/css/elusive-icons.min.css">
+		<script src="ammap/ammap/ammap.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="ammap/ammap/ammap.css" type="text/css" media="all"/>
+		<script src="ammap/ammap/maps/js/worldHigh.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class='head'>
+			<div class='title'>
+				<a href='home.html'><h6>Geo-Buff</h6></a>
+			</div>
+			<div class='links'>
+				<ul id='ul_nav'>
+					<li><a href='countries.html'>Countries</a></li>
+					<li><a href='flags.html'>Flags</a></li>
+					<li><a href='capitals.html'>Capitals</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="mapdiv">
+			<script>
+				var map = AmCharts.makeChart( "mapdiv", {
+
+				type: "map",
+				theme: "light",
+				
+				dataProvider: {
+					map: "worldHigh",
+					zoomLevel: 4.5,
+					zoomLongitude: 20,
+					zoomLatitude: 54,
+					areas: [ {
+						title: "Albania",
+						id: "AL",
+						color: "#118C4E",
+						customData: "Tirana"
+					  }, {
+						title: "Andorra",
+						id: "AD",
+						color: "#118C4E",
+						customData: "Andorra la Vella"
+					  }, {
+						title: "Austria",
+						id: "AT",
+						color: "#118C4E",
+						customData: "Vienna"
+					  }, {
+						title: "Belarus",
+						id: "BY",
+						color: "#118C4E",
+						customData: "Minsk"
+					  }, {
+						title: "Belgium",
+						id: "BE",
+						color: "#118C4E",
+						customData: "Brussels"
+					  }, {
+						title: "Bosnia and Herzegovina",
+						id: "BA",
+						color: "#118C4E",
+						customData: "Sarajevo"
+					  }, {
+						title: "Bulgaria",
+						id: "BG",
+						color: "#118C4E",
+						customData: "Sofia"
+					  }, {
+						title: "Croatia",
+						id: "HR",
+						color: "#118C4E",
+						customData: "Zagreb"
+					  }, {
+						title: "Cyprus",
+						id: "CY",
+						color: "#118C4E",
+						customData: "Nicosia"
+					  }, {
+						title: "Czech Republic",
+						id: "CZ",
+						color: "#118C4E",
+						customData: "Prague"
+					  }, {
+						title: "Denmark",
+						id: "DK",
+						color: "#118C4E",
+						customData: "Copenhagen"
+					  }, {
+						title: "Estonia",
+						id: "EE",
+						color: "#118C4E",
+						customData: "Tallinn"
+					  }, {
+						title: "Finland",
+						id: "FI",
+						color: "#118C4E",
+						customData: "Helsinki"
+					  }, {
+						title: "France",
+						id: "FR",
+						color: "#118C4E",
+						customData: "Paris"
+					  }, {
+						title: "Georgia",
+						id: "GE",
+						color: "#118C4E",
+						customData: "Tbilisi"
+					  }, {
+						title: "Germany",
+						id: "DE",
+						color: "#118C4E",
+						customData: "Berlin"
+					  }, {
+						title: "Greece",
+						id: "GR",
+						color: "#118C4E",
+						customData: "Athens"
+					  }, {
+						title: "Hungary",
+						id: "HU",
+						color: "#118C4E",
+						customData: "Budapest"
+					  }, {
+						title: "Iceland",
+						id: "IS",
+						color: "#118C4E",
+						customData: "Reykjavik"
+					  }, {
+						title: "Ireland",
+						id: "IE",
+						color: "#118C4E",
+						customData: "Dublin"
+					  }, {
+						title: "Italy",
+						id: "IT",
+						color: "#118C4E",
+						customData: "Rome"
+					  }, {
+						title: "Latvia",
+						id: "LV",
+						color: "#118C4E",
+						customData: "Riga"
+					  }, {
+						title: "Liechtenstein",
+						id: "LI",
+						color: "#118C4E",
+						customData: "Vaduz"
+					  }, {
+						title: "Lithuania",
+						id: "LT",
+						color: "#118C4E",
+						customData: "Vilnius"
+					  }, {
+						title: "Luxembourg",
+						id: "LU",
+						color: "#118C4E",
+						customData: "Luxembourg City"
+					  }, {
+						title: "Macedonia",
+						id: "MK",
+						color: "#118C4E",
+						customData: "Skopje"
+					  }, {
+						title: "Malta",
+						id: "MT",
+						color: "#118C4E",
+						customData: "Valletta"
+					  }, {
+						title: "Moldova",
+						id: "MD",
+						color: "#118C4E",
+						customData: "Chisinau"
+					  }, {
+						title: "Monaco",
+						id: "MC",
+						color: "#118C4E",
+						customData: "Monaco"
+					  }, {
+						title: "Montenegro",
+						id: "ME",
+						color: "#118C4E",
+						customData: "Podgorica"
+					  }, {
+						title: "The Netherlands",
+						id: "NL",
+						color: "#118C4E",
+						customData: "Amsterdam"
+					  }, {
+						title: "Norway",
+						id: "NO",
+						color: "#118C4E",
+						customData: "Oslo"
+					  }, {
+						title: "Poland",
+						id: "PL",
+						color: "#118C4E",
+						customData: "Krakow"
+					  }, {
+						title: "Portugal",
+						id: "PT",
+						color: "#118C4E",
+						customData: "Lisbon"
+					  }, {
+						title: "Romania",
+						id: "RO",
+						color: "#118C4E",
+						customData: "Bucharest"
+					  }, {
+						title: "San Marino",
+						id: "SM",
+						color: "#118C4E",
+						customData: "San Marino"
+					  }, {
+						title: "Serbia",
+						id: "RS",
+						color: "#118C4E",
+						customData: "Belgrade"
+					  }, {
+						title: "Slovakia",
+						id: "SK",
+						color: "#118C4E",
+						customData: "Bratislava"
+					  }, {
+						title: "Slovenia",
+						id: "SI",
+						color: "#118C4E",
+						customData: "Ljubljana"
+					  }, {
+						title: "Spain",
+						id: "ES",
+						color: "#118C4E",
+						customData: "Madrid"
+					  }, 
+					  {
+						title: "Sweden",
+						id: "SE",
+						color: "#118C4E",
+						customData: "Stockholm"
+					  }, 
+					  {
+						title: "Switzerland",
+						id: "CH",
+						color: "#118C4E",
+						customData: "Bern"
+					  }, 
+					  {
+						title: "Ukraine",
+						id: "UA",
+						color: "#118C4E",
+						customData: "Kiev"
+					  }, 
+					  {
+						title: "United Kingdom",
+						id: "GB",
+						color: "#118C4E",
+						customData: "London"
+					  }, 
+					  {
+						title: "Vatican City",
+						id: "VA",
+						color: "#118C4E",
+						customData: "Vatican City"
+					  }, {
+						title: "Kosovo",
+						id: "XK",
+						color: "#118C4E",
+						customData: "Pristina"
+					  }, {
+						title: "Russia",
+						id: "RU",
+						color: "#118C4E",
+						customData: "Moscow"
+					  }, {
+						title: "Turkey",
+						id: "TR",
+						color: "#118C4E",
+						customData: "Ankara"
+					  },
+					]
+				  },
+
+				  areasSettings: {
+					rollOverOutlineColor: "#1c1c1c",
+					rollOverColor: "#139F59",
+					alpha: 0.8,
+					unlistedAreasAlpha: 0.5,
+					unlistedAreasColor: "#1c1c1c",
+					balloonText: "[[title]] - [[customData]]"
+				  }
+				} );
+			</script>
+		</div>
+	</body>
+</html>

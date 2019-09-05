@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Geo-Buff: Countries of AS Hard</title>
+		<link rel='stylesheet' type='text/css' href='css/stylesheet.css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script src="ammap/ammap/ammap.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="ammap/ammap/ammap.css" type="text/css" media="all"/>
+		<script src="ammap/ammap/maps/js/worldHigh.js" type="text/javascript"></script>
+		<script src='javascript/as-countries-hard.js'></script>
+	</head>
+	<body>
+		<div class='head'>
+			<div class='title'>
+				<a href='home.html'><h6>Geo-Buff</h6></a>
+			</div>
+			<div class='links'>
+				<ul id='ul_nav'>
+					<li><a href='countries.html'>Countries</a></li>
+					<li><a href='flags.html'>Flags</a></li>
+					<li><a href='capitals.html'>Capitals</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class='games-2'>
+			<div id='intro_div' class='game_div'>
+				<h1 class='game_name'>Countries of Asia</h1>
+				<h2 class='hard'>Hard Mode</h2>
+				<button class='start'>Begin</button><br><br>
+				<button class='review-2' onclick="location.href='as-countries-review.html';">I need to review first!</button>
+				<button class='change_mind' onclick="location.href='countries.html';">I changed my mind</button>
+			</div>
+			<div id='play_div' class='game_div_2'>
+				<div class='hard_question'>
+					<h2 class='question'>Which country is this?</h2><br>
+					<input type='text' class='hard_ans' placeholder='Your answer here' autofocus></input>
+					<!--<button class='enter'>Enter</button>-->
+				</div>
+				<div id='country_progress'>
+					<h2 id='progress'></h2>
+				</div>
+				<div id='playdiv'>
+				</div>
+			</div>
+			<div id='result_div' class='game_div'>
+				<h1 class='game_name'>Results</h1>
+				<div id='stats_div'>
+					<table id='stats_table'>
+						<tr>
+							<td>
+								<h3 class='stats'>Overall:</h3>
+							</td>
+							<td>
+								<progress id='overall-stats' class='statprog'></progress>
+							</td>
+							<td>
+								<h3 id='numCorrect' class='stats'></h3>
+							</td>
+						</tr>
+					</table>
+					<div id='btn_div'>
+						<button class='play_again' onClick='window.location.reload()'>Play Again</button>
+						<button class='review-3' onClick="location.href='as-countries-review.html';">I need some more review!</button>
+						<button class='change_mind' onClick="location.href='countries.html';">More Quizzes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

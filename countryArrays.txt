@@ -1,0 +1,23 @@
+//NA
+var countries = ["ag|Antigua and Barbuda|NA","bs|Bahamas|NA","bb|Barbados|NA","bz|Belize|NA","ca|Canada|NA","cr|Costa Rica|NA","cu|Cuba|NA","dm|Dominica|NA","do|Dominican Republic|NA","sv|El Salvador|NA","gd|Grenada|NA","gt|Guatemala|NA","ht|Haiti|NA","hn|Honduras|NA","jm|Jamaica|NA","mx|Mexico|NA","ni|Nicaragua|NA","pa|Panama|NA","kn|Saint Kitts and Nevis|NA","lc|Saint Lucia|NA","vc|Saint Vincent and the Grenadines|NA","tt|Trinidad and Tobago|NA","us|United States|NA"];
+
+
+/SA
+var countries = ["ar|Argentina|SA","bo|Bolivia|SA","br|Brazil|SA","cl|Chile|SA","co|Colombia|SA","ec|Ecuador|SA","gy|Guyana|SA","py|Paraguay|SA","pe|Peru|SA","sr|Suriname|SA","uy|Uruguay|SA","ve|Venezuela|SA"];
+
+
+//EU
+var countries = ["al|Albania|EU","ad|Andorra|EU","am|Armenia|EU","at|Austria|EU","az|Azerbaijan|EU","by|Belarus|EU","be|Belgium|EU","ba|Bosnia and Herzegovina|EU","bg|Bulgaria|EU","hr|Croatia|EU","cy|Cyprus|EU","cz|Czech Republic|EU","dk|Denmark|EU","ee|Estonia|EU","fi|Finland|EU","fr|France|EU","ge|Georgia|EU","de|Germany|EU","gr|Greece|EU","hu|Hungary|EU","is|Iceland|EU","ie|Ireland|EU","it|Italy|EU","lv|Latvia|EU","li|Liechtenstein|EU","lt|Lithuania|EU","lu|Luxembourg|EU","mk|Macedonia|EU","mt|Malta|EU","md|Moldova|EU","mc|Monaco|EU","me|Montenegro|EU","nl|Netherlands|EU","no|Norway|EU","pl|Poland|EU","pt|Portugal|EU","ro|Romania|EU","sm|San Marino|EU","rs|Serbia|EU","sk|Slovakia|EU","si|Slovenia|EU","es|Spain|EU","se|Sweden|EU","ch|Switzerland|EU","ua|Ukraine|EU","gb|United Kingdom|EU","va|Vatican City|EU"];
+
+
+//AS
+var countries = ["af|Afghanistan|AS","bh|Bahrain|AS","bd|Bangladesh|AS","bt|Bhutan|AS","bn|Brunei|AS","kh|Cambodia|AS","tl|Timor-Leste|AS","in|India|AS","id|Indonesia|AS","ir|Iran|AS","iq|Iraq|AS","il|Israel|AS","jp|Japan|AS","jo|Jordan|AS","kz|Kazakhstan|AS","kw|Kuwait|AS","kg|Kyrgyzstan|AS","la|Laos|AS","lb|Lebanon|AS","my|Malaysia|AS","mv|Maldives|AS","mn|Mongolia|AS","mm|Myanmar|AS","np|Nepal|AS","kp|North Korea|AS","om|Oman|AS","pk|Pakistan|AS","ps|Palestine|AS","cn|China|AS","ph|Philippines|AS","qa|Qatar|AS","tw|Taiwan|AS","ru|Russia|AS","sa|Saudi Arabia|AS","sg|Singapore|AS","kr|South Korea|AS","lk|Sri Lanka|AS","sy|Syria|AS","tj|Tajikistan|AS","th|Thailand|AS","tr|Turkey|AS","tm|Turkmenistan|AS","ae|United Arab Emirates|AS","uz|Uzbekistan|AS","vn|Vietnam|AS","ye|Yemen|AS"];
+
+
+//AF
+var countries = ["dz|Algeria|AF","ao|Angola|AF","bj|Benin|AF","bw|Botswana|AF","bf|Burkina Faso|AF","bi|Burundi|AF","cm|Cameroon|AF","cv|Cape Verde|AF","cf|Central African Republic|AF","td|Chad|AF","km|Comoros|AF","ci|Cote d'Ivoire|AF","cd|Democratic Republic of the Congo|AF","dj|Djibouti|AF","eg|Egypt|AF","gq|Equatorial Guinea|AF","er|Eritrea|AF","et|Ethiopia|AF","ga|Gabon|AF","gm|Gambia|AF","gh|Ghana|AF","gn|Guinea|AF","gw|Guinea-Bissau|AF","ke|Kenya|AF","ls|Lesotho|AF","lr|Liberia|AF","ly|Libya|AF","mg|Madagascar|AF","mw|Malawi|AF","ml|Mali|AF","mr|Mauritania|AF","mu|Mauritius|AF","ma|Morocco|AF","mz|Mozambique|AF","na|Namibia|AF","ne|Niger|AF","ng|Nigeria|AF","cg|Republic of the Congo|AF","rw|Rwanda|AF","st|Sao Tome and Principe|AF","sn|Senegal|AF","sc|Seychelles|AF","sl|Sierra Leone|AF","so|Somalia|AF","za|South Africa|AF","ss|South Sudan|AF","sd|Sudan|AF","sz|Swaziland|AF","tz|Tanzania|AF","tg|Togo|AF","tn|Tunisia|AF","ug|Uganda|AF","zm|Zambia|AF","zw|Zimbabwe|AF"];
+
+
+//OC
+var countries = ["au|Australia|OC","fj|Fiji|OC","ki|Kiribati|OC","mh|Marshall Islands|OC","fm|Micronesia|OC","nr|Nauru|OC","nz|New Zealand|OC","pw|Palau|OC","pg|Papua New Guinea|OC","ws|Samoa|OC","sb|Solomon Islands|OC","to|Tonga|OC","tv|Tuvalu|OC","vu|Vanuatu|OC"];
+

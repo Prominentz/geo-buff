@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>SA Countries Review</title>
+		<link rel='stylesheet' type='text/css' href='css/stylesheet.css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="siteicons/css/elusive-icons.min.css">
+		<script src="ammap/ammap/ammap.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="ammap/ammap/ammap.css" type="text/css" media="all"/>
+		<script src="ammap/ammap/maps/js/worldHigh.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class='head'>
+			<div class='title'>
+				<a href='home.html'><h6>Geo-Buff</h6></a>
+			</div>
+			<div class='links'>
+				<ul id='ul_nav'>
+					<li><a href='countries.html'>Countries</a></li>
+					<li><a href='flags.html'>Flags</a></li>
+					<li><a href='capitals.html'>Capitals</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="mapdiv">
+			<script>
+				var map = AmCharts.makeChart( "mapdiv", {
+
+				type: "map",
+				theme: "light",
+				
+				dataProvider: {
+					map: "worldHigh",
+					zoomLevel: 3,
+					zoomLongitude: -65,
+					zoomLatitude: -26,
+					areas: [ {
+						title: "Argentina",
+						id: "AR",
+						color: "#118C4E",
+						customData: "Bueons Aires"
+					  }, {
+						title: "Bolivia",
+						id: "BO",
+						color: "#118C4E",
+						customData: "Sucre"
+					  }, {
+						title: "Brazil",
+						id: "BR",
+						color: "#118C4E",
+						customData: "Basilia"
+					  }, {
+						title: "Chile",
+						id: "CL",
+						color: "#118C4E",
+						customData: "Santiago"
+					  }, {
+						title: "Colombia",
+						id: "CO",
+						color: "#118C4E",
+						customData: "Bogota"
+					  }, {
+						title: "Ecuador",
+						id: "EC",
+						color: "#118C4E",
+						customData: "Quito"
+					  }, {
+						title: "Guyana",
+						id: "GY",
+						color: "#118C4E",
+						customData: "Georgetown"
+					  }, {
+						title: "Paraguay",
+						id: "PY",
+						color: "#118C4E",
+						customData: "Asuncion"
+					  }, {
+						title: "Peru",
+						id: "PE",
+						color: "#118C4E",
+						customData: "Lima"
+					  }, {
+						title: "Suriname",
+						id: "SR",
+						color: "#118C4E",
+						customData: "Paramaribo"
+					  }, {
+						title: "Uruguay",
+						id: "UY",
+						color: "#118C4E",
+						customData: "Montevideo"
+					  }, {
+						title: "Venezuela",
+						id: "VE",
+						color: "#118C4E",
+						customData: "Caracas"
+					  }, 
+					]
+				  },
+
+				  areasSettings: {
+					rollOverOutlineColor: "#1c1c1c",
+					rollOverColor: "#139F59",
+					alpha: 0.8,
+					unlistedAreasAlpha: 0.5,
+					unlistedAreasColor: "#1c1c1c",
+					balloonText: "[[title]] - [[customData]]"
+				  }
+				} );
+			</script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Welcome to Geo-Buff</title>
+		<link rel='stylesheet' type='text/css' href='css/stylesheet.css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,300' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script src="ammap/ammap/ammap.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="ammap/ammap/ammap.css" type="text/css" media="all"/>
+		<script src="ammap/ammap/maps/js/worldHigh.js" type="text/javascript"></script>
+		
+		<script>
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+				  var target = $(this.hash);
+				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				  if (target.length) {
+					$('html,body').animate({
+					  scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				  }
+				}
+			  });
+			});
+		</script>
+	</head>
+	<body>
+		<div class='head'>
+			<div class='title'>
+				<a href='home.html'><h6>Geo-Buff</h6></a>
+			</div>
+			<div class='links'>
+				<ul id='ul_nav'>
+					<a href='countries.html'><li>Countries</li></a>
+					<a href='flags.html'><li>Flags</li></a>
+					<a href='capitals.html'><li>Capitals</li></a>
+				</ul>
+			</div>
+		</div>
+		<a id='t1'></a>
+		<div class='tile1'>
+			<h2>Welcome to</h2>
+			<h1>Geo-Buff</h1>
+			<h3>the new, easy way to learn the basics of<h3>
+			<h2>Geography and Vexillology</h2>
+			<a href='#t1'><i class="el el-chevron-up el-3x"></i></a>
+			<a href='#t2'><i class="el el-chevron-down el-3x"></i></a>
+		</div>
+		<div class='tile2'>
+			<a id='t2'></a>
+			<h1>The Basics</h1>
+			<h2>Geography</h2>
+			<p class='def'>n. The nature and relative arrangement of places and physical features.</p>
+			<h2>Vexillology</h2>
+			<p class='def'>n. The study of flags</p>
+			<br>
+			<a href='#t1'><i class="el el-chevron-up el-3x"></i></a>
+			<a href='#t3'><i class="el el-chevron-down el-3x"></i></a>
+		</div>
+		<div class='tile3'>
+		<a id='t3'></a>
+			<h1>Get Started</h1>
+			<table class='get_started'>
+				<tr>
+					<td class='icn_link'><a href='countries.html'><i class="el el-globe el-5x"></i></a></td>
+					<td class='icn_link'><a href='flags.html'><i class="el el-flag el-5x"></i></a></td>
+					<td class='icn_link'><a href='capitals'><i class="el el-map-marker el-5x"></i></a></td>
+				</tr>
+				<tr>
+					<td>Countries</td>
+					<td>Flags</td>
+					<td>Cities</td>
+				</tr>
+			</table>
+			<a href='#t2'><i class="el el-chevron-up el-3x"></i></a>
+			<a href='#t3'><i class="el el-chevron-down el-3x"></i></a>
+		</div>
+	</body>
+</html>
